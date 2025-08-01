@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+#main{
+    width: 40%;
+    margin-top: 37px;
+    border-color: aqua;
+}
+#main legend{
+    font-size: xx-large;
+    color: rgb(64, 64, 255);
+}
+#main .main-1 {
+    text-align: center;
+}
+#main .main-1 img{
+ height: 150px;
+ margin-bottom: 30px;
+}
+#main .main-1 label{
+     text-align: left;
+    font-size: x-large;
+
+}
+#main .main-1 .text label{
+    text-align: left;
+}
+#main .main-1 input{  
+    font-size: medium;
+    outline: none;
+    height: 50px;
+    width: 400px;
+    border: none;
+    border-bottom-style: solid;
+    margin-bottom: 30px;
+}
+#main .main-1 button{
+    font-size: large;
+    height: 50px;
+    width: 100px;
+    margin: 40px;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+}
+#main .main-1 button:hover{
+    background-color: white;
+    border:2px solid aqua;
+}
+#main .main-1 button:active{
+    background-color: rgb(209, 204, 204);
+}

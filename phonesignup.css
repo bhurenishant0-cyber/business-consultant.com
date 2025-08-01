@@ -1,0 +1,17 @@
+#main-2 .field .form input{
+    width: 120px;
+    margin: 5px;
+}
+#main-2 .field .form label{
+    font-size: small;
+}
+#main-2 .input{
+    width: 160px;
+}
+#main-2 .lable{
+    font-size: small;
+}
+#main-2 .btn{
+    width: 122px;
+    font-size:medium ;
+}

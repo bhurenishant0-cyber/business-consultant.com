@@ -1,0 +1,18 @@
+body{
+    margin-top: 80px;
+}
+.main img{
+    height: 100px;
+}
+.btns button{
+    font-size: medium;
+    height: 35px;
+    width: 80px;
+}
+.btns{
+    margin: 20px;
+}
+.btns p{
+    margin: 20px 0px;
+    font-size: medium;
+}

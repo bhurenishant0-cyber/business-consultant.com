@@ -1,0 +1,41 @@
+body{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+}
+#field{
+    margin-top: 35px;
+    width: 50%;
+    border-color: aqua;
+}
+legend{
+    font-size: xx-large;
+    color: rgb(0, 128, 255);
+}
+.main img{
+    height: 200px;
+}
+.main{
+    text-align: center;
+}
+.btns{
+    text-align: center;
+    margin-top: 60px;
+}
+.btns button{
+    font-size: large;
+    height: 50px;
+    width: 100px;
+    margin: 40px;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+}
+.btns button:hover{
+    background-color:white;
+    border: 2px solid aqua;
+}
+.btns p{
+    margin:50px 0px;
+    font-size: larger;
+}

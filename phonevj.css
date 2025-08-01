@@ -1,0 +1,107 @@
+#navbar{
+    flex-direction: column;
+}
+#navbar::before{
+    height: 180px;
+}
+.nav{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#navbar .nav ul li a{
+    padding:5px;
+    margin: 0px;
+    font-size: small;
+}
+.nav input{
+    width: 200px;
+    height: 25px;
+    margin-top: 20px;
+}
+.login{
+    height: 30px;
+    margin-top: 20px;
+}
+
+#main-section img{
+    height: 120px;
+    width: 100px;
+}
+#main-section::before{
+    height: 600px;
+}
+#main-section  .main .desc{
+    font-size: medium;
+}
+#main-section  .main .desc .span2{
+    margin-left: 35px;
+   }
+   #main-section  .main .desc .in{
+    margin-left: 35px;
+   }
+
+#desc-section {
+    flex-wrap: wrap;
+    margin:180px 25px 1px 25px;
+    font-size: smaller;
+}
+#desc-section .desc .head img{
+    height: 75px;
+    width: 75px;
+}
+#desc-section .desc .head h1{
+    font-size: 1.4rem;
+}
+#greet-sec{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 33px;
+    text-align: center;
+}
+#greet-sec .greet hr{
+    width: 94%;
+}
+#greet-sec .inline-greet img{
+    width: 230px;
+}
+#greet-sec .inline-greet{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#greet-sec .note{
+    margin: 0px;
+}
+#bottom{
+    flex-wrap: wrap;
+}
+#bottom img{
+    height: 25px;
+    margin: 0px 20px;
+}
+#bottom-1 p{
+    font-size: small;
+}
+#net{
+    flex-flow:wrap;
+}
+#net .net-1{
+    font-size: small;
+}
+#net .net-2{
+    flex-wrap: wrap;
+}
+#net .net-2 img{
+    height: 20px;
+    margin: 3px 14px;
+}
+#bottom-main {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#bottom-main .desc{
+    margin: 0px 20px;
+}
+#bottom-main .desc h1{
+    font-size: medium;
+}

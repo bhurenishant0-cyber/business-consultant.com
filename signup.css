@@ -1,0 +1,62 @@
+body{
+    display:flex;
+    justify-content: center;
+}
+#main-2{
+    width: 45%;
+    margin-top: 65px;
+    border-color: aqua;
+}
+#main-2 legend{
+  font-size: xx-large;
+  color: rgb(88, 88, 232);
+}
+#main-2 .field{
+    text-align: center;
+}
+#main-2 .field img{
+    height: 125px;
+}
+#main-2 .field .form{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-top: 40px;
+}
+#main-2 .field .form input{
+    margin-bottom: 25px;
+    width: 250px;
+    height: 30px;
+    outline: 0px;
+    border: none;
+    border-bottom-style: solid;
+}
+#main-2 .lable{
+    margin-left: -40px;
+    
+}
+#main-2 .input{
+ width: 300px;
+ height: 35px;
+ border: none;
+ border-bottom-style:solid ;
+ outline: 0px;
+}
+#main-2 .btn{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: medium;
+    height: 40px;
+    width:150px;
+    border-radius: 10px;
+    border: none;
+    background-color: aqua;
+
+}
+#main-2 .btn:hover{
+    background-color: white;
+    border: 3px solid aqua;
+}
+#main-2 .btn:active{
+    background-color: rgb(206, 203, 203);
+}
